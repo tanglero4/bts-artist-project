@@ -53,6 +53,53 @@ header a {
   color: white;
   padding: 18px;
 }
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 3fr 3fr;
+}
+footer {
+  background-image: linear-gradient(
+      rgb(130, 117, 229, 0.9),
+      rgb(130, 117, 229, 0.8)
+    ),
+    url("../image/color.jpg");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+footer h3 {
+  font-family: Playfair Display;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0em;
+  text-decoration: none;
+}
+footer p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0px;
+}
+footer ul {
+  margin: 0 auto;
+}
+footer li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+footer a {
+  color: white;
+  opacity: 0.7;
+}
 .container {
   max-width: 1400px;
   margin: 0 auto;
