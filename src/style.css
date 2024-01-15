@@ -83,7 +83,7 @@ section.secondary {
   display: grid;
   grid-gap: 64px;
 }
-.grid-2-colums {
+.grid-2-columns {
   grid-template-columns: 1fr 1fr;
 }
 .grid-3-columns {
@@ -106,6 +106,10 @@ section.secondary {
 
 .card img {
   border-radius: 15px;
+}
+.embed{
+  width: 100%;
+  aspect-ratio: 16/9;
 }
 .btn {
   display: block;
